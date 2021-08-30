@@ -1,8 +1,6 @@
 <form id="form">
-    <select name="priority" id="priority">
-        <option value="1">Baixo</option>
-        <option value="2">Medio</option>
-        <option value="3">Alto</option>
+    <select>
+        <option *ngFor='let level of priority' [value]='level.value'>{{level.level}}</option>       
     </select>
     <input type="text" name="tf_2do" id="tf_2do" autocomplete="off">
     <button type="submit" (click)='addActivity()'>Salvar</button>

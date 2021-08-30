@@ -1,5 +1,4 @@
-export enum Priority {
-    low = 1,
-    middle = 2,
-    high = 3
+export class Priority {
+    level!:string
+    value!:number
 }
