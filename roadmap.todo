@@ -1,52 +1,30 @@
 Aparência geral:
-    ✔ Crie uma pasta "img" dentro da pasta /src/assets/ @done(21-08-30 10:19)
-    A pasta assets é uma pasta de arquivos estáticos. Muito apropriada para armazenamento de imagens
-    utilizadas no layout das páginas
-    ✔ Salve na pasta /src/assets/img a imagem https://github.com/sergiomoura/contatos-html-template/blob/main/img/bg.jpg
-    ✔ Aplicar geral.css para folha de estilos que será usada no site inteiro. @done(21-08-30 10:19)
-    . Visite
-    . https://sergiomoura.github.io/contatos-html-template/home.html
-    . https://github.com/sergiomoura/contatos-html-template
-    ✔ Limpe app.component.html @done(21-08-30 10:22)
-    ✔ Visite localhost:4200 e verifique se o background já está visível @done(21-08-30 10:22)
-    ✔ Incorpore os css externos no index.html @done(21-08-30 10:23)
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
+    ✔ Aplicar geral.css para folha de estilos que será usada no site inteiro. @done(21-08-30 18:09)
+    ✔ Limpe app.component.html @done(21-08-30 18:09)
+    ✔ Visite localhost:4200 e verifique se o background já está visível @done(21-08-30 18:09)
+    ✔ Incorpore os css externos no index.html @done(21-08-30 18:09)
+   
 
 Criação de Menu:
-    ✔ Criar componentnte components/Menu @done(21-08-30 10:46)
-    O conteúdo de menu.component.html dele deve ser o do elemento nav contida em https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ✔ Adicione esse componente ao app.component.html @done(21-08-30 10:47)
-    ✔ Dê estilo a ele baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @done(21-08-30 10:47)
-    . *Observe que o link para sair do sistema não está aparecendo corretamente (exit_to_app)*
-    ✔ Importe as fontes do material icon fonts para o seu projeto adicionando a linha de código no index.html @done(21-08-30 10:47)
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    ✔ Verifique se o menu aparece corretamente. @done(21-08-30 10:47)
+    ✔ Criar componente components/ListItem @done(21-08-30 18:10)
+    ✔ Adicione componentes ao app.component.html @done(21-08-30 18:10)
+    ✔ Dê estilo @done(21-08-30 18:10)
 
 Criação de Lista de Contatos:
-    ✔ Criar o componente components/ListaDeContatos @done(21-08-30 11:04)
-    O conteúdo de lista-de-contatos.component.html deve ser o main de https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ✔ Adicione esse componente ao app.component.html @done(21-08-30 11:04)
-    ✔ Dê o estilo desse componente baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @done(21-08-30 11:04)
-    ✔ Verifique se a lista de contatos aparece corretamente. @done(21-08-30 11:04)
+    ✔ Criar o componente components/InputField @done(21-08-30 18:13)
+    ✔ Adicione esse componente ao app.component.html @done(21-08-30 18:13)
+    ✔ Dê o estilo no css @done(21-08-30 18:13)
+    ✔ Verifique se a lista de contatos aparece corretamente. @done(21-08-30 18:13)
 
 Criação de Componente contato:
-    ✔ Criar componente components/Contato @done(21-08-30 11:31)
-    ✔ Utilizar como componente com componente uma das sections contidas na main do lista-de-contatos.component.html @done(21-08-30 11:31)
-    ✔ Utilizar o css apropriado para esse componente. @done(21-08-30 11:31)
-    ✔ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato @done(21-08-30 11:31)
+    ✔ Criar componente components/List @done(21-08-30 18:13)
+    ✔ Dê o estilo no css @done(21-08-30 18:14)
+    ✔ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato @done(21-08-30 18:14)
 
 Fazendo que os contatos sejam mais dinâmicos:
-    ✔ Crie uma pasta models dentro da pastas src/app @done(21-08-30 12:06)
-    ✔ Crie nessa pasta models um arquivo Contato.ts @done(21-08-30 12:06)
-    Exporte de dentro desse arquivo uma interface que defina 3 campos
-    .nome (do tipo string),
-    .email (do tipo string) 
-    .tels (um array de strings)
-    ✔ Declare na classe ListaDeContatosComponent um atributo contatos do tipo array de contatos @done(21-08-30 12:07)
-    ✔ Atribua a esse atributo um array com pelo menos 10 contatos @done(21-08-30 12:07)
-    ☐ Faça com que esses contatos sejam exibidos.
+    ✔ Crie uma pasta models dentro da pastas src/app @done(21-08-30 18:14)
+    ✔ Crie nessa pasta models um arquivo Activity e outro Priority (enum) @done(21-08-30 18:14)
+    ✔ Faça com que essas Activities sejam exibidas. @done(21-08-30 18:15)
 
 Fazendo com que contatos sejam levantados a partir de um servico:
     ☐ Crie um serviço services/Contato
