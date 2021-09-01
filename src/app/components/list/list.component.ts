@@ -8,6 +8,7 @@ import { Activity } from 'src/app/model/activity.model';
 })
 export class ListComponent implements OnInit {
 
+  activity!: Activity[]
 
   constructor() { }
 
